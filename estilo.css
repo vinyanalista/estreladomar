@@ -12,14 +12,18 @@ section {
 }
 
 .footer {
-	background-color: #4891D3;
+	background-color: #1D9CE5;
 	bottom: 0;
 	clear: both;
 	color: white;
 	height: auto;
-	outline: 1px solid #3A87AD;
+	outline: 1px solid #178ACC;
 	position: absolute;
 	width: 100%;
+}
+
+.footer a {
+	color: white;
 }
 
 .footer .container {
