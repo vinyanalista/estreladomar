@@ -20,4 +20,9 @@ setInterval(function() {
 
 $(document).ready(function() {
 	//bootlint.showLintReportForCurrentDocument([]);
+	$("a[rel^='prettyPhoto']").prettyPhoto({
+		deeplinking: false,
+		slideshow: false,
+		social_tools: false
+	});
 });
