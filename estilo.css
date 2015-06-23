@@ -1,0 +1,49 @@
+body {
+	padding-top: 30px;
+}
+
+html {
+	min-height: 100%;
+	position: relative;
+}
+
+section {
+	padding-bottom: 50px;
+}
+
+.footer {
+	background-color: #1D9CE5;
+	bottom: 0;
+	clear: both;
+	color: white;
+	height: auto;
+	outline: 1px solid #178ACC;
+	position: absolute;
+	width: 100%;
+}
+
+.footer a {
+	color: white;
+}
+
+.footer .container {
+	margin-top: 10px;
+}
+
+.gap {
+	margin-bottom: 30px;
+}
+
+.navbar {
+    border-radius: 0px;
+}
+
+@media (min-width: 768px) {
+	.navbar-collapse {
+	    padding-left: 0px;
+	}
+}
+
+#topo {
+	margin-bottom: 15px;
+}
